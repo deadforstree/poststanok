@@ -1,1 +1,19 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOODCRAFT</title>
+</head>
+<body class="page">
+    <div class="form">
+        <h1 class="form__tittle">Отправить заявку</h1>
+        <form class="form__window">
+        <input type="text" id="comment-input" name="comment" class="form__item form__item_type_comment"
+          placeholder="Напишите проблему" required minlength="2" maxlength="200">
+        <span class="form__input-error comment-input-error"></span>
+        <button aria-label="Отправить" name="push-btn" type="submit" class="form__push-btn">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
