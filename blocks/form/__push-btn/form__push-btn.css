@@ -1,0 +1,31 @@
+.form__push-btn {
+    width: 500px;
+    height: 50px;
+    background-color: #ffffff;
+    /* Зеленый фон */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* Скругленные углы */
+    transition-duration: 0.4s;
+    /* Анимация при наведении */
+}
+
+.form__push-btn:hover {
+    background-color: #b0b8b0;
+    /* Темно-зеленый фон при наведении */
+}
+
+@media screen and (max-width: 800px) {
+    .form__push-btn {
+        max-width: 250px;
+        margin-bottom: 15px;
+    }
+  }

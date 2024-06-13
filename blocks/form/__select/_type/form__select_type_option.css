@@ -1,0 +1,16 @@
+.form__select_type_option {
+    background-color: white; /* Белый фон для опций */
+    color: #333; /* Цвет текста опций */
+    padding: 10px; /* Внутренние отступы для опций */
+  }
+  
+  /* Стилизация опций при наведении */
+  .form__select_type_option:hover {
+    background-color: #f2f2f2; /* Светло-серый фон при наведении */
+  }
+  
+  /* Стилизация опций при выборе */
+  .form__select_type_option:checked {
+    background-color: #e6e6e6; /* Серый фон для выбранной опции */
+  }
+  

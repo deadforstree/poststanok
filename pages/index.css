@@ -1,0 +1,13 @@
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__comment-input-error/form__comment-input-error.css);
+@import url(../blocks/form/__input-error/form__input-error.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_type/form__item_type_comment.css);
+@import url(../blocks/form/__select/form__select.css);
+@import url(../blocks/form/__select/_type/form__select_type_option.css);
+@import url(../blocks/form/__push-btn/form__push-btn.css);
+@import url(../blocks/form/tittle/form__tittle.css);
+@import url(../blocks/form/window/form__windows.css);

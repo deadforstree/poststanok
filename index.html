@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
     <title>WOODCRAFT</title>
 </head>
+
 <body class="page">
-    <div class="form">
+    <form class="form">
         <h1 class="form__tittle">Отправить заявку</h1>
-        <form class="form__window">
-        <input type="text" id="comment-input" name="comment" class="form__item form__item_type_comment"
-          placeholder="Напишите проблему" required minlength="2" maxlength="200">
-        <span class="form__input-error comment-input-error"></span>
-        <button aria-label="Отправить" name="push-btn" type="submit" class="form__push-btn">Отправить</button>
-        </form>
-    </div>
+        <select class="form__select" required>
+            <option class="form__select_type_option" hidden value="">-- Выберите площадку --</option>
+            <option class="form__select_type_option" value="1">ЛофтКорпус</option>
+            <option class="form__select_type_option" value="2">ЛофтМягкая</option>
+            <option class="form__select_type_option" value="2">ЛофтМассив</option>
+            <option class="form__select_type_option" value="2">ЛофтМеталл</option>
+        </select>
+        <select class="form__select" required>
+            <option class="form__select_type_option" hidden value="">-- Выберите смену --</option>
+            <option class="form__select_type_option" value="1">Смена 1</option>
+            <option class="form__select_type_option" value="2">Смена 2</option>
+        </select>
+        <select class="form__select" required>
+            <option class="form__select_type_option" hidden value="">-- Выберите станок --</option>
+            <option class="form__select_type_option" value="1">Смена 1</option>
+            <option class="form__select_type_option" value="2">Смена 2</option>
+        </select>
+        <input type="text" class="form__item" placeholder="Введите описание проблемы" minlength="5" required>
+        <button class="form__push-btn">Отправить</button>
+    </form>
+    <script type="module" src="script/index.js"></script>
 </body>
+
 </html>
